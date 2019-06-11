@@ -5,5 +5,7 @@ class Songs
     @title = title
   end
 
+  def song_artist(title)
+    title.artist = artist
   
 end
